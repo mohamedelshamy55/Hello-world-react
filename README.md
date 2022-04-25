@@ -1,66 +1,80 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Description the project.
-
+# hello-react-rails
+This is a simple project that where I connect react and ruby on rails to diplay random greetings
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
+- Ruby
+- Ruby on Rails
+- Javascript
+- React
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+git clone https://github.com/mohamedelshamy55/Hello-world-react.git
+
+cd hello-react-rails
 
 ### Setup
 
-### Install
+Install npm with:
 
+```
+npm i
+```
+Install gems with:
+
+```
+bundle install
+```
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+```
 ### Usage
+
+Start server with:
+
+```
+rails server
+```
+
+Open http://localhost:3000/ in your browser.
 
 ### Run tests
 
-### Deployment
+Install rspec with:
 
+```
+bundle install
+```
 
+and
 
-## Authors
+```
+rails generate rspec:install
+```
 
-👤 **Author1**
+run the test with:
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+```
+rspec spec
+```
 
-👤 **Author2**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Mohamed ELShamy**
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@mohamedelshamy55](https://github.com/mohamedelshamy55)
+- Twitter: [@moelshamy55](https://mobile.twitter.com/moelshamy55)
+- LinkedIn: [mohamedelshamy85](https://www.linkedin.com/in/mohamedelshamy85/)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
 
 ## Acknowledgments
 
